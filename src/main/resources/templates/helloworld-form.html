@@ -8,9 +8,17 @@
 </head>
 
 <body>
+    <!--<h2>Form Version One</h2>
     <form th:action="@{/processForm}" method="GET">
         <input type="text" name="studentName"
-                placeholder="What's your name?" />
+        placeholder="What's your name?" />
+        <input type="submit" />
+    </form>
+    <br><br>-->
+    <h2>Form Version Two</h2>
+    <form th:action="@{/processFormVersionTwo}" method="GET">
+        <input type="text" name="studentName2"
+               placeholder="What's your name?" />
         <input type="submit" />
     </form>
 </body>
