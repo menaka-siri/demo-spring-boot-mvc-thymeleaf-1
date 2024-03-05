@@ -20,7 +20,7 @@ public class HelloWorldController {
 
     @RequestMapping("/processFormVersionTwo")
     public String letsShoutDude(HttpServletRequest request, Model model) {
-        String theName = request.getParameter("studentName2");
+        String theName = request.getParameter("studentName");
 
         theName = theName.toUpperCase();
 
